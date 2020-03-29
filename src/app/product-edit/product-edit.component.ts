@@ -31,7 +31,7 @@ export class ProductEditComponent implements OnInit {
   edit(){
     this.productService.editProduct(this.product).subscribe(data =>{
       console.log(data);
-      this.router.navigate(['/product-manager']);
+      this.router.navigate(['/admin/product-manager']);
     }
     );
     
