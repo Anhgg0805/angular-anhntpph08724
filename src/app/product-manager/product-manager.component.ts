@@ -30,13 +30,13 @@ export class ProductManagerComponent implements OnInit {
     // this.products=this.productService.removeProduct(id);
     this.productService.removeProduct(id).subscribe(response =>{
       this.router.navigate(['/admin/product-manager'])
-      // console.log(response);
+      console.log(response);
     });
   }
   addProduct(){
     // this.productService.addProduct(this.productNew);
     this.productService.addProduct(this.productNew).subscribe(data => {
-    this.router.navigate(['//product-manager'])
+    this.router.navigate(['/admin/product-manager'])
     });
     
   }
