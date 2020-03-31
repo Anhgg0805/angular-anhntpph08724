@@ -1,4 +1,4 @@
- .btn{
+ .btn2{
    font-size: 13px;
     color: #fff;
     text-decoration: none;
@@ -11,7 +11,7 @@
     border: 1px solid #b17812;
     border-radius: 0px;
 }
-.btn:hover{
+.btn2:hover{
   background:#000;
 color: #fff;
 }
