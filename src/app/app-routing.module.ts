@@ -16,14 +16,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes = [
   { path: "", redirectTo: "home", pathMatch: "full" },
   { path: "home", component: HomeComponent },
-        { path: '', component:ProductListComponent},
         { path: "about", component: AboutComponent },
         { path: 'product/:id', component: ProductDetailComponent},
   { path: "service", component: ServiceComponent },
       
   {path :'admin',component:IndexAdminComponent,
      children: [
-        { path: '', component:Da},
+        { path: '', component:DashboardComponent},
         { path: "product-manager", component: ProductManagerComponent },
   { path: 'product/:id', component: ProductDetailComponent},
   { path: 'product/edit/:id', component: ProductEditComponent},
