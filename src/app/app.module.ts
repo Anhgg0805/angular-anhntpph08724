@@ -18,6 +18,7 @@ import { ProductAddComponent } from './product-add/product-add.component';
 import { HomeComponent } from './home/home.component';
 import { IndexAdminComponent } from './index-admin/index-admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HomeComponent,
     IndexAdminComponent,
     DashboardComponent,
+    FooterComponent,
     
   ],
   imports: [
