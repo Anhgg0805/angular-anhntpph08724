@@ -23,7 +23,7 @@ const routes: Routes = [
       
   {path :'admin',component:IndexAdminComponent,
      children: [
-        { path: '', component:ProductManagerComponent},
+        { path: '', component:Da},
         { path: "product-manager", component: ProductManagerComponent },
   { path: 'product/:id', component: ProductDetailComponent},
   { path: 'product/edit/:id', component: ProductEditComponent},
