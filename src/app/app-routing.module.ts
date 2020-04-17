@@ -22,11 +22,12 @@ const routes: Routes = [
       
   {path :'admin',component:IndexAdminComponent,
      children: [
-        { path: '', component:DashboardComponent},
-        { path: "product-manager", component: ProductManagerComponent },
-  { path: 'product/:id', component: ProductDetailComponent},
-  { path: 'product/edit/:id', component: ProductEditComponent},
-  {path :'addProduct',component:ProductAddComponent},
+        { path: "", redirectTo: "dashboard", pathMatch: "full" },
+        { path: 'dashboard', component:DashboardComponent},
+        { path: 'product-manager', component: ProductManagerComponent },
+        { path: 'product/:id', component: ProductDetailComponent},
+        { path: 'product/edit/:id', component: ProductEditComponent},
+        {path :'addProduct',component:ProductAddComponent},
       ]
   },
   
